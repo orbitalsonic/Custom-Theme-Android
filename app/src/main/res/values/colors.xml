@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Default Theme Colors-->
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryVariant">#FF3700B3</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>
+    <color name="colorSecondary">#FF03DAC5</color>
+    <color name="colorSecondaryVariant">#FF018786</color>
+    <color name="colorOnSecondary">#FF000000</color>
+    <color name="default_gradient_start">#924BF6</color>
+    <color name="default_gradient_end">#4C04B3</color>
+    <color name="colorTextDefault">#E91E63</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Black Theme Colors-->
+    <color name="colorPrimaryBlack">#FF000000</color>
+    <color name="colorPrimaryVariantBlack">#FF000000</color>
+    <color name="black_gradient_start">#979595</color>
+    <color name="black_gradient_end">#3C2D2D</color>
+    <color name="colorTextBlack">#54b9c1</color>
+
+    <!--White Theme Colors-->
+    <color name="colorPrimaryWhite">#FFFFFFFF</color>
+    <color name="colorPrimaryVariantWhite">#FFFFFFFF</color>
+    <color name="white_gradient_start">#FFE9E9</color>
+    <color name="white_gradient_end">#E3B2B2</color>
+    <color name="colorTextWhite">#af9f01</color>
+
+    <!--Red Theme Colors-->
+    <color name="colorPrimaryRed">#f70000</color>
+    <color name="colorPrimaryVariantRed">#f70000</color>
+    <color name="red_gradient_start">#F44D4D</color>
+    <color name="red_gradient_end">#9F0303</color>
+    <color name="colorTextRed">#ef9f26</color>
+
+    <!--Green Theme Colors-->
+    <color name="colorPrimaryGreen">#008140</color>
+    <color name="colorPrimaryVariantGreen">#008140</color>
+    <color name="green_gradient_start">#4CDC93</color>
+    <color name="green_gradient_end">#016835</color>
+    <color name="colorTextGreen">#0b2f6d</color>
+
+    <!--Blue Theme Colors-->
+    <color name="colorPrimaryBlue">#0091f7</color>
+    <color name="colorPrimaryVariantBlue">#0091f7</color>
+    <color name="blue_gradient_start">#5DB3EF</color>
+    <color name="blue_gradient_end">#045E9E</color>
+    <color name="colorTextBlue">#ef7b00</color>
+
+    <!--Yellow Theme Colors-->
+    <color name="colorPrimaryYellow">#f7c600</color>
+    <color name="colorPrimaryVariantYellow">#f7c600</color>
+    <color name="yellow_gradient_start">#F6DC71</color>
+    <color name="yellow_gradient_end">#755E02</color>
+    <color name="colorTextYellow">#dd6ba7</color>
+
+
+</resources>

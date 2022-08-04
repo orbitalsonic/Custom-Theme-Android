@@ -1,0 +1,117 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <!--        others colors-->
+        <item name="colorGradientStart">@color/default_gradient_start</item>
+        <item name="colorGradientEnd">@color/default_gradient_end</item>
+        <item name="colorText">@color/colorTextDefault</item>
+    </style>
+
+    <style name="WhiteTheme" parent="Theme.CustomTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimaryWhite</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantWhite</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="actionBarTheme">@style/ToolbarThemeWhite</item>
+        <!-- Secondary brand color. -->
+<!--        if you want to change Secondary colors change here like Primary colors-->
+
+<!--        others colors-->
+        <item name="colorGradientStart">@color/white_gradient_start</item>
+        <item name="colorGradientEnd">@color/white_gradient_end</item>
+        <item name="colorText">@color/colorTextWhite</item>
+    </style>
+
+    <style name="BlackTheme" parent="Theme.CustomTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimaryBlack</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantBlack</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="actionBarTheme">@style/ToolbarThemeBlack</item>
+        <!-- Secondary brand color. -->
+        <!--        if you want to change Secondary colors change here like Primary colors-->
+
+        <!--        others colors-->
+        <item name="colorGradientStart">@color/black_gradient_start</item>
+        <item name="colorGradientEnd">@color/black_gradient_end</item>
+        <item name="colorText">@color/colorTextBlack</item>
+
+    </style>
+
+    <style name="RedTheme" parent="Theme.CustomTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantRed</item>
+        <!-- Secondary brand color. -->
+        <!--        if you want to change Secondary colors change here like Primary colors-->
+
+        <!--        others colors-->
+        <item name="colorGradientStart">@color/red_gradient_start</item>
+        <item name="colorGradientEnd">@color/red_gradient_end</item>
+        <item name="colorText">@color/colorTextRed</item>
+
+    </style>
+
+    <style name="GreenTheme" parent="Theme.CustomTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantGreen</item>
+        <!-- Secondary brand color. -->
+        <!--        if you want to change Secondary colors change here like Primary colors-->
+
+        <!--        others colors-->
+        <item name="colorGradientStart">@color/green_gradient_start</item>
+        <item name="colorGradientEnd">@color/green_gradient_end</item>
+        <item name="colorText">@color/colorTextGreen</item>
+
+    </style>
+
+    <style name="BlueTheme" parent="Theme.CustomTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantBlue</item>
+        <!-- Secondary brand color. -->
+        <!--        if you want to change Secondary colors change here like Primary colors-->
+
+        <!--        others colors-->
+        <item name="colorGradientStart">@color/blue_gradient_start</item>
+        <item name="colorGradientEnd">@color/blue_gradient_end</item>
+        <item name="colorText">@color/colorTextBlue</item>
+
+    </style>
+
+    <style name="YellowTheme" parent="Theme.CustomTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimaryYellow</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantYellow</item>
+        <!-- Secondary brand color. -->
+        <!--        if you want to change Secondary colors change here like Primary colors-->
+
+        <!--        others colors-->
+        <item name="colorGradientStart">@color/yellow_gradient_start</item>
+        <item name="colorGradientEnd">@color/yellow_gradient_end</item>
+        <item name="colorText">@color/colorTextYellow</item>
+
+    </style>
+
+    <style name="ToolbarThemeWhite" parent="@style/ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="ToolbarThemeBlack" parent="@style/ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+
+</resources>
